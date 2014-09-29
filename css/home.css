@@ -4,7 +4,6 @@ body {
 
 .nav li {
     display:inline;
-    position:relative;
     margin:25px;
     list-style-type:none;
     font-family:Avenir-Medium;
@@ -34,11 +33,15 @@ body {
 }
 
 .footer img {
-	position:absolute;right;
+    margin-right: 10px;
 	height:40px;
 	width:40px;
-	margin-bottom: 10%;
-	margin-right: 20px;
 	color:#FFCA72;
+}
+
+.social {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
 }
 
